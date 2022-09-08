@@ -1,3 +1,7 @@
+mod lib;
+use std::io;
+
 fn main() {
-    println!("Hello, world!");
+    lib::desk::print_desk();
+    let mut white_command;
 }
